@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  php:
+    container_name: ${MICRO_COMPOSE_PROJECT_NAME}_php
+    build:
+      context: .docker/php-dev
+    env_file:
+      - .env
+    volumes:
+      - ~/.composer/cache/:/.composer_cache/:rw
+      - .:/app:rw
+    working_dir: /app
+
+

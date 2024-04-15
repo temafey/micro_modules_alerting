@@ -1,0 +1,9 @@
+parameters:
+    ignoreErrors:
+        - '#.+Mockery\\MockInterface.+#'
+        - '#Property .* does not accept MicroModule\\ValueObject\\ValueObjectInterface\.#'
+        - '#Parameter .* MicroModule\\ValueObject\\.* given\.#'
+        - '#Property MicroModule\\Alerting\\Domain\\Entity\\AlertingEntity::.*MicroModule\\Alerting\\Domain\\ValueObject.*#'
+        - '#Method MicroModule\\Alerting\\Domain\\Factory\\AlertingFactory::generateId\(\) should return MicroModule\\Alerting\\Domain\\ValueObject\\Id but returns MicroModule\\ValueObject\\StringLiteral\\StringLiteral\.#'
+        - '#Method MicroModule\\Alerting\\Tests\\Unit\\Domain\\Entity\\AlertingEntityTest::serializeTest\(\) has parameter \$serializableAlerting with no value type specified in iterable type array\.#'
+        - '#Method MicroModule\\Alerting\\Tests\\Unit\\Domain\\Entity\\AlertingEntityTest::deserializeTest\(\) has parameter \$serializableAlerting with no value type specified in iterable type array\.#'
