@@ -15,7 +15,7 @@
         "queue-interop/queue-interop": "^0.7|^0.8",
         "micro-module/enqueue": "^0.10",
         "micro-module/tactician-command-events": "^0.8",
-        "psr/log": "^3.0",
+        "psr/log": "^1.0",
         "php-http/guzzle7-adapter": "^1.0",
         "psr/http-client": "^1.0",
         "psr/http-factory": "^1.0",
